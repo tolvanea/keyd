@@ -99,7 +99,9 @@ esc = capslock
 
 4. See the man page (`man keyd`) for a more comprehensive description.
 
-5. In case the config is malformed, logs can be read with `sudo journalctl -e -u keyd`.
+5. Key names can be obtained with interactive monitoring `sudo keyd -m`
+
+6. System service logs can be read with `sudo journalctl -e -u keyd`.
 
 *Note*: It is possible to render your machine unusable with a bad config file.
 Should you find yourself in this position, the special key sequence
